@@ -472,7 +472,7 @@
 
 	#header {
 		background: #333333 url("../images/cixin.jpg") no-repeat;
-		// background-size: cover;
+		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
 		text-align: center;
