@@ -1,4 +1,6 @@
+gems: [jekyll-paginate]
 name: Cixin Upper School
 description: 慈心華德福高中
 paginate: 10
 baseurl: 'https://iscixin.github.io'
+# baseurl: ''

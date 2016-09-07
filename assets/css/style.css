@@ -471,13 +471,14 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/cixin.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
 		text-align: center;
 		background-position: 0% 65%;
 		position: relative;
+		min-height: 100vh;
 	}
 
 		#header:before {
@@ -588,7 +589,7 @@
 			line-height: 1.6em;
 			font-size: 1.5em;
 		}
-		
+
 		#banner a {
 			color: inherit;
 		}
@@ -630,7 +631,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0;
+		padding: 0;
 		color: #fff;
 	}
 
@@ -644,9 +645,9 @@
 		}
 
 		#footer .copyright {
-			margin-top: 3em;
-			padding-top: 3em;
-			border-top: 1px solid;
+			margin-top: 1em;
+			padding-top: 0em;
+			// border-top: 1px solid;
 			border-color: rgba(192, 192, 192, 0.15);
 			text-align: center;
 			color: inherit;
@@ -655,3 +656,16 @@
 		#footer a {
 			color: inherit;
 		}
+
+	div.box {
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	    text-align: center;
+	    height: 300px;
+	}
+	div.box:hover {
+		background: #eee;
+	}
+	div.box:hover img {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
