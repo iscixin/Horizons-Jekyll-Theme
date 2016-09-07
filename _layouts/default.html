@@ -38,4 +38,20 @@
 			</div>
 
 	</body>
+	<script>
+		$(window).scroll(function() {
+		    if ($(this).scrollTop() > 0) {// can be whatever, 0 refers to the top space you allow
+		        $('.arrow').hide();// Hide your element
+		    }
+		    else {
+		        $('.arrow').show();// It's just if you want to show back the element if we're back on top
+		    }
+		});
+
+$(".arrow").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#featured").offset().top
+    }, 1000);
+});
+	</script>
 </html>
