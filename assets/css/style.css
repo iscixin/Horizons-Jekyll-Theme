@@ -662,6 +662,7 @@
 	    text-align: center;
 	    min-height: 300px;
 	    padding-bottom: 10px;
+	    background: #fff;
 	}
 	div.box:hover {
 		background: #eee;
