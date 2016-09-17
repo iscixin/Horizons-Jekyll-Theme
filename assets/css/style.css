@@ -473,6 +473,7 @@
 	#header {
 		background: #333333 url("../images/cixin.jpg") no-repeat;
 		background-size: cover;
+		background-position: center bottom; 
 		color: #fff;
 		padding: 6em 0;
 		text-align: center;
